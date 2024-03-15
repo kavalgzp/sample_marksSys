@@ -35,7 +35,7 @@ const Navbar = () => {
       </ul>
       <Image
             className='m-2'
-            src="/logo.png"
+            src="/logo.jpg"
             width={80}
             height={80}
             alt="logo"

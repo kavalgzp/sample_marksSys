@@ -17,7 +17,6 @@ const teacherSchema = new mongoose.Schema({
   className: {
     type: String,
     required: true,
-    unique:true,
     enum: [
       "LKG",
       "UKG",

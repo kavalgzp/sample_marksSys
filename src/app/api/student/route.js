@@ -2,13 +2,13 @@ import { NextResponse } from "next/server";
 import mongoose from "mongoose";
 import { Student } from "@/lib/model/student";
 
-export async function GET(req, content) {
-    await mongoose.connect(process.env.DB);
+// export async function GET(req, content) {
+//     await mongoose.connect(process.env.DB);
 
-    const data = await Student.find();
-    console.log("db connected");
-    return NextResponse.json({ msg: data })
-}
+//     const data = await Student.find();
+//     console.log("db connected");
+//     return NextResponse.json({ msg: data })
+// }
 
 export async function POST(req, content) {
 
